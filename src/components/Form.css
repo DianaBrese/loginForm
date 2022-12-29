@@ -1,0 +1,28 @@
+
+
+.input p{
+    color:#AFB6C2 ;
+    font-family: 'Poppins';
+    font-size: 1.6rem;
+   
+    
+}
+
+.input input {
+    border: 0.3rem solid #FFC632;
+    width: 100%;
+    height: 4.4rem;
+    border-radius: 0.4rem;
+    background-color: transparent;
+    margin-bottom: 2rem;
+    background-image: url('../images/mail.svg') ;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 1.2rem;
+
+}
+.input input::placeholder {
+    color:#A9AFB9;
+    font-size: 1.4rem;
+    padding-left: 4rem;
+}

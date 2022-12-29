@@ -1,0 +1,158 @@
+.mainContainer {
+  padding: 4rem 2rem;
+  background-color: black;
+  height: 100vh;
+}
+
+.titleContainer {
+  color: white;
+  margin-top: 3rem;
+}
+
+.loginTitle {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-family: "Poppins";
+  font-size: 2.5rem;
+}
+
+.titleContainer p {
+  font-family: "Poppins";
+  color: #afb6c2;
+  font-size: 1.6rem;
+}
+
+.inputContainer {
+  margin-top: 2.7rem;
+}
+
+.rememberContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.rememberContainer div label {
+  color: #a9afb9;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 1.6rem;
+  padding-left: 0.5rem;
+}
+
+.rememberContainer p {
+  color: #ffc632;
+  font-weight: 600;
+  font-size: 1.4rem;
+  font-family: "Poppins";
+}
+
+.loginButton {
+  width: 100%;
+  height: 5.1rem;
+  margin-top: 2rem;
+  border-radius: 0.4rem;
+  background-color: #ffc632;
+  font-weight: 600;
+  font-family: "Poppins";
+  font-size: 1.8rem;
+}
+
+.register {
+  color: #ffc632;
+  text-align: center;
+  margin-top: 1.4rem;
+  font-weight: 400;
+  font-family: "Poppins";
+  font-size: 1.4rem;
+}
+
+.register span {
+  font-weight: 600;
+}
+
+.sideImage {
+  display: none;
+}
+
+@media (min-width: 1025px) {
+  .mainContainer {
+    width: 60%;
+  }
+
+  .styledBlockContainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  .blockContainer {
+    background-color: #24221f;
+    border-radius: 0.4rem;
+ 
+    padding-inline: 8rem;
+    padding-block: 5rem;
+
+ 
+  }
+
+  .titleContainer {
+    margin-top: 0rem;
+  }
+
+  .fullContainer {
+    display: flex;
+    height: 100vh;
+  }
+  .sideImage {
+    display: contents;
+    width: 40%;
+  }
+
+  .sideImage img {
+    width: inherit;
+    height: inherit;
+  }
+
+
+ 
+}
+
+@media (min-width: 1500px) {
+  .mainContainer {
+    width: 70%;
+  }
+
+  .styledBlockContainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+  .blockContainer {
+    background-color: #24221f;
+    border-radius: 0.4rem;
+    padding-inline: 8rem;
+    padding-block: 5rem;
+    width: 50%;
+    
+
+  }
+
+  .sideImage {
+    display: contents;
+    width: 30%;
+  }
+
+  .sideImage img {
+    width: inherit;
+    height: inherit;
+  }
+
+
+}
